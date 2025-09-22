@@ -7,8 +7,11 @@ package batalha;
 public class Batalha {
     
     public static void main(String[] args) {
-        GoblinComum c = new GoblinComum("julio", 23, 88.9);
-        System.out.println(c.getEnergia());
+        Soldado c = new Soldado("julio", 23, 88.9);
+        Warg w = new Warg("julio", 23, 88.9);
+        c.setMontaria(w);
+        
+        System.out.println(c);
     }
     
 }

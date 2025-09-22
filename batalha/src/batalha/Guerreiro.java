@@ -16,9 +16,9 @@ public abstract class Guerreiro {
         this.idade = idade;
         this.peso = peso;
         this.energia = 100;
-        this.ataque = 100;
     }
 
+//    SETTERS
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -30,6 +30,9 @@ public abstract class Guerreiro {
     public void setPeso(double peso) {
         this.peso = peso;
     }
+    
+    
+//    GETTERS
     
     public String getNome() {
         return nome;
@@ -43,9 +46,10 @@ public abstract class Guerreiro {
         return peso;
     }
 
-    public int getEnergia() {
-        return energia;
+    public int getAtaque() {
+        return ataque;
     }
+    
   
 }
 
