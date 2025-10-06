@@ -6,14 +6,17 @@ package batalha;
 
 /**
  *
- * @author julio.silva
+ * @author julio
  */
-public class ReiGoblin extends Goblin {
+public class Cavalo extends Guerreiro {
     
-    public ReiGoblin(String nome, int idade, double peso) {
+    public Cavalo(String nome, int idade, double peso) {
         super(nome, idade, peso);
-        this.energia = 300;
-        this.ataque = 100;
+    }
+
+    @Override
+    public int atacar() {
+        return 0;
     }
     
 }

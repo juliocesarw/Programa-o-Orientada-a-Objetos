@@ -5,11 +5,10 @@
 package batalha;
 
 public abstract class Guerreiro {
-    private String nome;
+    protected String nome;
     private int idade;
     private double peso;
     protected int energia;
-    protected int ataque;
 
     public Guerreiro(String nome, int idade, double peso) {
         this.nome = nome;
@@ -45,11 +44,13 @@ public abstract class Guerreiro {
     public double getPeso() {
         return peso;
     }
-
-    public int getAtaque() {
-        return ataque;
-    }
     
-  
+//    AÇÕES
+    public abstract int atacar();
+    
+    public void sofrerDano(int dano){
+        energia = energia - dano;
+    }
+ 
 }
 
