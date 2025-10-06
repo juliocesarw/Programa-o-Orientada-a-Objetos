@@ -1,0 +1,6 @@
+3 Thatiano 45 100 Sim
+1 Rogerio 23 70
+4 Mateus 43 87 Não
+2 Julio 20 88
+5 Taianaior 32 74
+6 Estefano 50 85 Sim
